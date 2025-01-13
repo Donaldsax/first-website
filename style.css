@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(3, 21, 103);
+    background-color:rgb(1, 15, 76);
  text-align: center;
  color: #ffffff;
 }
@@ -26,12 +26,33 @@ p{
 }
 
 .container{
-    background-color: #ffffff;
+    background-color: cyan;
     margin-left: 50px;
     margin-right: 50px;
     height: 20em;
     color: black;
+    animation-name: ddd;
+    animation-duration: 20s;
 
+}
+@keyframes ddd{
+    0%{
+        background-color: yellow;
+    }
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: darkturquoise;
+
+    }
+    75%{
+        background-color: purple;
+    }
+    100%{
+        background-color: magenta;
+    }
+    
 }
 .text{
     padding-top: 80px;
@@ -48,12 +69,14 @@ p{
     margin-top: 40px;
 }
 .container2{
-    background-color: #ffff;
+    background-color: cyan;
     margin-left: 50px;
     margin-right: 50px;
     height: 20em;
     color: black;
     margin-top: 40px;
+    animation-name: ddd;
+    animation-duration: 20s;
 
 }
 .before{
@@ -66,4 +89,8 @@ p{
 }
 .social{
     color: rgb(235, 140, 0);
+}
+.about{
+    margin-left: 850px;
+    margin-top: -60px;
 }
